@@ -24,7 +24,7 @@ const avatarRight = 'https://q1.qlogo.cn/g?b=qq&nk=917640289&s=640'
     </div>
 
     <div flex="~ col gap-2" cursor-pointer>
-      <NuxtImg size-20 rounded-full :src="avatarRight"/>
+      <NuxtImg size-20 rounded-full :src="avatarRight" />
       <span text-xl>Hammer</span>
     </div>
   </div>

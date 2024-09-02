@@ -13,7 +13,7 @@ useHead({
   </NuxtLayout>
 </template>
 
-<style> 
+<style>
 html,
 body,
 #__nuxt {
