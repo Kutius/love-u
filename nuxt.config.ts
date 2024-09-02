@@ -25,6 +25,10 @@ export default defineNuxtConfig({
     '@unocss/reset/tailwind.css',
   ],
 
+  image: {
+    domains: ['https://dagvqwfczlevrtjztrvr.supabase.co/storage/v1/object/public/imgs/.*', 'https://q1.qlogo.cn/*'],
+  },
+
   colorMode: {
     classSuffix: '',
   },
@@ -37,7 +41,6 @@ export default defineNuxtConfig({
     },
     prerender: {
       crawlLinks: false,
-      failOnError: false,
       routes: ['/'],
     },
   },
