@@ -37,8 +37,8 @@ export default defineNuxtConfig({
     },
     prerender: {
       crawlLinks: false,
+      failOnError: false,
       routes: ['/'],
-      ignore: ['/hi'],
     },
   },
 

@@ -12,7 +12,7 @@ const avatarRight = 'https://q1.qlogo.cn/g?b=qq&nk=917640289&s=640'
     shadow="md"
   >
     <div flex="~ col gap-2" cursor-pointer>
-      <NuxtImg size-20 rounded-full :src="avatarLeft" />
+      <NuxtImg size-20 rounded-full :src="avatarLeft" loading="lazy" />
       <span text-xl>Yun</span>
     </div>
 
@@ -24,7 +24,7 @@ const avatarRight = 'https://q1.qlogo.cn/g?b=qq&nk=917640289&s=640'
     </div>
 
     <div flex="~ col gap-2" cursor-pointer>
-      <NuxtImg size-20 rounded-full :src="avatarRight" />
+      <NuxtImg size-20 rounded-full :src="avatarRight" loading="lazy" />
       <span text-xl>Hammer</span>
     </div>
   </div>
